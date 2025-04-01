@@ -1,0 +1,8 @@
+Flask==3.0.3
+Flask-Cors==4.0.1
+PyPDF2==3.0.1
+langchain # Let pip choose version
+langchain-google-genai # Let pip choose version
+langchain-community # Let pip choose version
+faiss-cpu==1.8.0 # For vector storage
+python-dotenv==1.0.1 # Optional: For managing environment variables from a .env file

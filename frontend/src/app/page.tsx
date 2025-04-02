@@ -316,3 +316,12 @@ export default function Home() {
     </main>
   );
 }
+
+// TODO: add ui improvements to button, visually show button press
+// TODO: add loading states and progress indicators
+// TODO: add error handling and user feedback
+// TODO: add search functionality
+// TODO: fix chat functionality
+
+
+

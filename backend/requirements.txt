@@ -6,3 +6,11 @@ langchain-google-genai # Let pip choose version
 langchain-community # Let pip choose version
 faiss-cpu==1.8.0 # For vector storage
 python-dotenv==1.0.1 # Optional: For managing environment variables from a .env file
+numpy<2.0 # Pin numpy for faiss compatibility
+
+flask
+flask-cors
+langchain-google-genai
+pypdf2
+faiss-cpu # Or faiss-gpu if you have CUDA installed and configured
+python-dotenv
